@@ -1,15 +1,16 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <QueueMessages />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import QueueMessages from './components/QueueMessages.vue'
+
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    QueueMessages
   }
 }
 </script>
